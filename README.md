@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-  * [Requirements and Setup](##requirements-and-setup)
-  * [Files](##files-in-repository)  
-  * [Troubleshooting](##troubleshooting) 
+  * [Requirements and Setup](#requirements-and-setup)
+  * [Files](#files-in-repository)  
+  * [Troubleshooting](#troubleshooting) 
 
 ## Requirements and Setup 
     Download Anaconda from the website below. Make sure to install Python 3.7 version! 
