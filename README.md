@@ -1,4 +1,4 @@
-# Work on weak CN stars in Andromeda M31
+# Weak CN star Analysis in Andromeda M31
   
 ## Requirements/ Setup
   ### Installing Anaconda
@@ -17,54 +17,67 @@
     
   ### How to pull/push changes
    #### Pull Changes 
-        To pull any changes made by others, use terminal to navigate to directory and type git pull.
+    To pull any changes made by others, use terminal to navigate to directory and type git pull.
    
    #### Push Changes
        
-       After making any changes on the notebook, save and checkpoint. These changes will be saved locally. 
-       Then, to push this to Github, navigate to the directory on terminal and type: 
-                 git add 'the file name
-                 git commit -m 'your message/comments'  (-a -m instead of -m if not mac user)
-                 git push
+    After making any changes on the notebook, save and checkpoint. These changes will be saved locally. 
+    Then, to push this to Github, navigate to the directory on terminal and type: 
+             git add 'the file name
+             git commit -m 'your message/comments'  (-a -m instead of -m if not mac user)
+             git push
     
-        The change should now be visible on github."
+    The change should now be visible on github."
 
 ## Files In Repository
 
   **Automation Version 1.4.1**
 
-    * SIP 2016 code by interns Anika Kamath, Atmika Sarukkai, Alyssa Sales. Mentored by Puragra GuhaThakurta.
-    * Data cleaning and plotting weak CN stars on CMDs. 
+    1. SIP 2016 code by interns Anika Kamath, Atmika Sarukkai, Alyssa Sales. Mentored by Puragra GuhaThakurta.
+    2. Data cleaning and plotting weak CN stars on CMDs. 
 
   **Automation Version 2.5.3**
 
-    * SIP 2018 code by interns Alexandra Masegian and Arya Maheshwari. Mentors: Rachel Raikar and Anika Kamath.
-    * Creating a carbon template spectrum and graphing scores against it, kernel density estimations for classification.
+    1. SIP 2018 code by interns Alexandra Masegian and Arya Maheshwari. Mentors: Rachel Raikar, Anika Kamath.
+    2. Creating a carbon template spectrum and graphing scores against it, kernel density estimations for classification.
 
   **Automation Version 2.6.1**
       
-    * SIP 2018 code by Alexandra Masegian and Arya Maheshwari. Mentored by Rachel Raikar and Anika Kamath.
-    * Creating a carbon template spectrum and graphing scores against it, kernel density estimations for classification, slope       calculation.
+    1. SIP 2018 code by Alexandra Masegian and Arya Maheshwari. Mentors: by Rachel Raikar, Anika Kamath.
+    2. Creating a carbon template spectrum and graphing scores against it, kernel density estimations for classification, 
+    slope calculation.
 
   **Automation Version 2.7 test**
       
-    * SIP 2019 code by Antara Bhattacharya, Suhas Kotha, Allison Chang. Mentored by Rachel Raikar,
-    * Machine-classification of weak CN and carbon stars based  on their positions on graphs of scores against undiluted and 
+    1. SIP 2019 code by Antara Bhattacharya, Suhas Kotha, Allison Chang. Mentored by Rachel Raikar,
+    2. Machine-classification of weak CN and carbon stars based  on their positions on graphs of scores against undiluted and 
       diluted carbon and weak CN templates and slope magnitudes.
 
   **Automation Version 3.0**
     
-    * Combined and cleaned up code from 2.5.3 (Arya's code) and 2.6.1 (Alexandra's code).
+    1. Combined and cleaned up code from 2.5.3 (Arya's code) and 2.6.1 (Alexandra's code).
 
   **Automation Version 4.0**
       
-    * Code by Rachel Raikar and Antara Bhattacharya. 
-    * Classification of weak CN stars based on their position on CMDs with     
+    1. Code by Rachel Raikar and Antara Bhattacharya. 
+    2. Classification of weak CN stars based on their position on CMDs with     
       distance from the head of the plot of scores against undiluted templates used as a classification metric.
    
-   **CSV folder**
+   **CSV-Dictionaries**
   
-    "I don't know what to write here so I'm just keeping some placeholder text here for now."
+    Folder containing folders of dictionaries from all methods of analysis:
+      1. Modified Diluted 
+        * Contains both Carbon and Weak CN template scores, dilution factor (c), and slope adjustment (s)
+        * For full W and 1U range
+      2. Modified Undiluted
+        * Contains both Carbon and Weak CN template scores, dilution factor (c), and slope adjustment (s)
+        * For full W range
+      3. Unmodified
+        * Contains both Carbon and Weak CN template scores
+        * For full W range
+      4. Slopes
+        * Contains 4 slopes of W range for all stars
+     
   
 ## Troubleshooting
   
