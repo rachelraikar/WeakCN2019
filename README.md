@@ -7,56 +7,88 @@
   * [Troubleshooting](#troubleshooting) 
 
 ## Requirements and Setup 
+    
+   ### Anaconda
     Download Anaconda from the website below. Make sure to install Python 3.7 version! 
 [Anaconda link](https://www.anaconda.com/distribution/) 
     
   ### Using Jupyter
-    Open up Anaconda Navigator and type 'jupyter notebook' into it. This launches jupyter on your web browser.
+    Open up Anaconda Navigator and type 'jupyter notebook'. This launches jupyter on your web browser.
     Alternatively use terminal to cd to directory and open jupyter from there by typing 'jupyter notebook'
 
-  ### How to set up a Git repository on your laptop
+  * If you are new to coding with python in Jupyter, I suggest taking a look at this Python tutorial: 
+   
+   #### Install Jupyter Extensions
+    Instructions can be found[here.](https://ndres.me/post/best-jupyter-notebook-extensions/)
+
+    Recommended Extensions: collapsible headings, table of contents, move selected cells
+
+  ### Using Github
+  
+  #### 1. Set up a Git repository on your laptop
     
     1. Go to terminal and cd to the spot you would like the WeakCN2019 repository (folder)
     2. Then type: git clone https://github.com/rachelraikar/WeakCN2019.git into your terminal. 
-        This will copy the repository as a folder onto your laptop with the files\n",
+        This will copy the repository as a folder onto your laptop with the files
+        
+  #### 2. Set up Testbranch
+   Be sure to make changes to the testbranch. Keep the master branch as a backup. Update master when needed.
+   Here are basic instructions to get started :
     
-  ### How to pull/push changes
-   #### Pull Changes 
-    To pull any changes made by others, use terminal to navigate to directory and type git pull.
+    Set up a stream to GitHub (So that you can push/pull changes):
+      git push --set-upstream origin Testbranch
    
-   #### Push Changes
-       
-    After making any changes on the notebook, save and checkpoint. These changes will be saved locally. 
-    Then, to push this to Github, navigate to the directory on terminal and type: 
-             git add 'the file name
-             git commit -m 'your message/comments'  (-a -m instead of -m if not mac user)
-             git push
+    Check which branch you are in: git branch
+    Switch branches to desired branch: git checkout <branch>
+    Create a new branch: git branch <name_of_your_new_branch>
     
-    The change should now be visible on github."
+  #### How to pull/push changes
+  
+   Always check which branch you are in before pushing/pulling. 
+   You should be in 'Testbranch' unless pushing to Master. If not, set a stream to the Testbranch and move into it.
+   
+    Pull Changes:  
+
+        To pull any changes made by others, use terminal to navigate to directory and type git pull.
+   
+    Push Changes:
+       
+        After making any changes on the notebook, save and checkpoint. These changes will be saved locally. 
+        Then, to push this to Github, navigate to the directory on terminal and type: 
+                 git add 'the file name
+                 git commit -m 'your message/comments'  (-a -m instead of -m if not mac user)
+                 git push
+    
+        The change should now be visible on github."
 
 ## Files In Repository
 
   **Automation Version 1.4.1**
 
-    1. SIP 2016 code by interns Anika Kamath, Atmika Sarukkai, Alyssa Sales. Mentored by Puragra GuhaThakurta.
-    2. Data cleaning and plotting weak CN stars on CMDs. 
+    1. SIP 2016 code by interns Anika Kamath, Atmika Sarukkai, Alyssa Sales. Mentor: Puragra GuhaThakurta.
+    2. Data cleaning and plotting Weak CN stars on CMDs. 
 
   **Automation Version 2.5.3**
 
-    1. SIP 2018 code by interns Alexandra Masegian and Arya Maheshwari. Mentors: Rachel Raikar, Anika Kamath.
-    2. Creating a carbon template spectrum and graphing scores against it, kernel density estimations for classification.
+    1. SIP 2018 code by interns Alexandra Masegian and Arya Maheshwari. Mentors: Rachel Raikar,Anika Kamath
+    2. Created Carbon template spectrum and graphed scores against it. 
+    3. Kernel density estimations for classification.
 
   **Automation Version 2.6.1**
       
-    1. SIP 2018 code by Alexandra Masegian and Arya Maheshwari. Mentors: by Rachel Raikar, Anika Kamath.
-    2. Creating a carbon template spectrum and graphing scores against it, kernel density estimations for classification, 
-    slope calculation.
+    1. SIP 2018 code by Alexandra Masegian and Arya Maheshwari. Mentors: by Rachel Raikar,Anika Kamath
+    2. Created Carbon template spectrum and graphed scores against it. 
+    3. Kernel density estimations for classification, 
+    4. Slope calculations
 
   **Automation Version 2.7 test**
       
-    1. SIP 2019 code by Antara Bhattacharya, Suhas Kotha, Allison Chang. Mentored by Rachel Raikar,
-    2. Machine-classification of weak CN and carbon stars based  on their positions on graphs of scores against undiluted and 
-      diluted carbon and weak CN templates and slope magnitudes.
+    1. SIP 2019 code by Antara Bhattacharya, Suhas Kotha, Allison Chang. Mentored by Rachel Raikar
+    2. Created Weak CN Template and performed analysis in comparison to Carbon Template.
+    3. Machine-classification of Weak CN and Carbon stars based  on their positions on 3 graphs:
+        * Score against Weak CN Template vs Score against Carbon Template (both unmodified)
+        * Score against scores against modified-diluted carbon template vs dilution factor
+        * Slope 4-3 vs Slope 2-1 of the 'W' range.
 
   **Automation Version 3.0**
     
