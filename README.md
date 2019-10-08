@@ -1,7 +1,12 @@
 # Weak CN star Analysis in Andromeda M31
-  
-## Requirements/ Setup
-  ### Installing Anaconda
+
+## Table of Contents
+
+  * [Requirements and Setup](#Requirements-and-Setup)
+  * [Files](##Files-In-Repository)  
+  * [Troubleshooting](##Troubleshooting)
+
+## Requirements and Setup 
     Download Anaconda from the website below. Make sure to install Python 3.7 version! 
 [Anaconda link](https://www.anaconda.com/distribution/) 
     
