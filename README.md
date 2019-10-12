@@ -16,7 +16,21 @@
     Open up Anaconda Navigator and type 'jupyter notebook'. This launches jupyter on your web browser.
     Alternatively use terminal to cd to directory and open jupyter from there by typing 'jupyter notebook'
 
-  * If you are new to coding with python in Jupyter, I suggest taking a look at this Python tutorial: 
+**If you are new to coding with python in Jupyter, I suggest taking a look at this Python tutorial links:**
+
+1. Please make sure you have completed the Anaconda installation of Python 3 on your computer. 
+    Link to instructions for Anaconda installation and other pre-tutorial preparatory steps:
+
+[Installation and pre-tutorial](https://drive.google.com/open?id=13O_K943llhgoTA4Puo32s4xAPtA2NL3kCpl4pHoTobI)
+
+2. Website that contains the blank Jupyter notebooks that we will use for the PyaR tutorial
+   (download and unpack item 5 named JupyterNotebooksBlank,zip) and other relevant materials:
+
+[Python notebooks](http://www.ucolick.org/~raja/rm4/Astro/)
+
+3. Main PyaR Google doc link:
+
+[Pyar link](https://docs.google.com/document/d/16QuhwolhX0URjpyPZ7sfWy107aBuvq3E9-LPyT8Nz68/edit?usp=sharing)
    
    #### Install Jupyter Extensions
     Instructions can be found below:
