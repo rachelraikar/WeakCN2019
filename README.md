@@ -19,7 +19,8 @@
   * If you are new to coding with python in Jupyter, I suggest taking a look at this Python tutorial: 
    
    #### Install Jupyter Extensions
-    Instructions can be found[here.](https://ndres.me/post/best-jupyter-notebook-extensions/)
+    Instructions can be found below:
+   [Extensions](https://ndres.me/post/best-jupyter-notebook-extensions/)
 
     Recommended Extensions: collapsible headings, table of contents, move selected cells
 
@@ -114,6 +115,11 @@
         * For full W range
       4. Slopes
         * Contains 4 slopes of W range for all stars
+        
+   **validindices**
+   
+   **starVals2**
+   
      
   
 ## Troubleshooting
