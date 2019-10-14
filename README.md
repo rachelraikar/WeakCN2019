@@ -133,13 +133,15 @@
    ** Please refer to the [DictionaryNames](DictionaryNames.txt) for names of dictionaries in each method. **
         
    **validindices**
+    
     - Folder containing the star indices for each group from visual classification.
     - They only include indices with valid zqual values, not of all stars from fits file.
     
    **starVals2**
-   - Here are the lists of values that Arya(SIP 2018) made for each star (the optimal C, the optimal S, and the score).
-   - Excludes stars that are all NaN-values.
-   - This folder may be needed for notebook 2.5.3/2.6.1
+
+    - Here are the lists of values that Arya(SIP 2018) made for each star (the optimal C, the optimal S, and the score).
+    - Excludes stars that are all NaN-values.
+    - This folder may be needed for notebook 2.5.3/2.6.1
      
   
 ## Troubleshooting
