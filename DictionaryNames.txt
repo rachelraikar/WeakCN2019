@@ -1,0 +1,80 @@
+#This file contains the names of the Dictionaries from each of these template methods of analysis
+
+#unmodified Ctemp score dicts
+kphOthers_Cscore_dict, kphTrO1_Cscore_dict, kphTrO2_Cscore_dict  = {}, {}, {},
+others_Cscore_dict = {}
+flaggedStars_Cscore_dict, wNm_Cscore_dict, carbon_Cscore_dict = {}, {}, {} 
+
+#unmodified Wtemp score dicts
+kphOthers_score_dict, kphTrO1_score_dict, kphTrO2_score_dict, others_score_dict = {}, {}, {}, {}
+flaggedStars_score_dict, wNm_score_dict, carbon_score_dict = {}, {}, {} 
+weak_score_dict, marginal_score_dict = {}, {}
+
+#unmodified Ctemp and Wtemp score dicts 1U dicts
+carbon_Cscore_dict_1U = {}
+carbon_score_dict_1U = {}
+wNm_Cscore_dict_1U = {}
+wNm_score_dict_1U = {}
+others_Cscore_dict_1U = {}
+others_score_dict_1U = {}
+kphOthers_Cscore_dict_1U = {}
+kphOthers_score_dict_1U = {}
+
+#modifed diluted C temp dicts
+wNm_c_dict, wNm_s_dict, wNm_score2_dict = {}, {}, {}
+carbon_c_dict, carbon_s_dict, carbon_score2_dict = {}, {}, {}
+kphTrO1_c_dict, kphTrO1_s_dict, kphTrO1_score2_dict = {}, {}, {}
+kphTrO2_c_dict, kphTrO2_s_dict, kphTrO2_score2_dict = {}, {}, {}
+kphOthers_c_dict, kphOthers_s_dict, kphOthers_score2_dict = {}, {}, {}
+others_c_dict, others_s_dict, others_score2_dict = {}, {}, {}
+
+#modifed diluted C temp dicts - 1U
+wNm_c_dict_1U, wNm_s_dict_1U, wNm_score2_dict_1U = {}, {}, {}
+carbon_c_dict_1U, carbon_s_dict_1U, carbon_score2_dict_1U = {}, {}, {}
+kphTrO1_c_dict_1U, kphTrO1_s_dict_1U, kphTrO1_score2_dict_1U = {}, {}, {}
+kphTrO2_c_dict_1U, kphTrO2_s_dict_1U, kphTrO2_score2_dict_1U = {}, {}, {}
+kphOthers_c_dict_1U, kphOthers_s_dict_1U, kphOthers_score2_dict_1U = {}, {}, {}
+others_c_dict_1U, others_s_dict_1U, others_score2_dict_1U = {}, {}, {}
+
+#mod diluted W temp scores
+wNm_c_wdict, wNm_s_wdict, wNm_score2_wdict = {}, {}, {}
+carbon_c_wdict, carbon_s_wdict, carbon_score2_wdict = {}, {}, {}
+kphTrO1_c_wdict, kphTrO1_s_wdict, kphTrO1_score2_wdict = {}, {}, {}
+kphTrO2_c_wdict, kphTrO2_s_wdict, kphTrO2_score2_wdict = {}, {}, {}
+kphOthers_c_wdict, kphOthers_s_wdict, kphOthers_score2_wdict = {}, {}, {}
+others_c_wdict, others_s_wdict, others_score2_wdict = {}, {}, {}
+
+#mod diluted W temp scores 1U
+wNm_c_wdict_1U, wNm_s_wdict_1U, wNm_score2_wdict_1U = {}, {}, {}
+carbon_c_wdict_1U, carbon_s_wdict_1U, carbon_score2_wdict_1U = {}, {}, {}
+kphTrO1_c_wdict_1U, kphTrO1_s_wdict_1U, kphTrO1_score2_wdict_1U = {}, {}, {}
+kphTrO2_c_wdict_1U, kphTrO2_s_wdict_1U, kphTrO2_score2_wdict_1U = {}, {}, {}
+kphOthers_c_wdict_1U, kphOthers_s_wdict_1U, kphOthers_score2_wdict_1U = {}, {}, {}
+others_c_wdict_1U, others_s_wdict_1U, others_score2_wdict_1U = {}, {}, {}
+
+#undiluted W temp scores
+wNm_c_uwdict, wNm_s_uwdict, wNm_score2_uwdict = {}, {}, {}
+carbon_c_uwdict, carbon_s_uwdict, carbon_score2_uwdict = {}, {}, {}
+kphTrO1_c_uwdict, kphTrO1_s_uwdict, kphTrO1_score2_uwdict = {}, {}, {}
+kphTrO2_c_uwdict, kphTrO2_s_uwdict, kphTrO2_score2_uwdict = {}, {}, {}
+kphOthers_c_uwdict, kphOthers_s_uwdict, kphOthers_score2_uwdict = {}, {}, {}
+others_c_uwdict, others_s_uwdict, others_score2_uwdict = {}, {}, {}
+
+#undiluted C temp
+wNm_c_ucdict, wNm_s_ucdict, wNm_score2_ucdict = {}, {}, {}
+carbon_c_ucdict, carbon_s_ucdict, carbon_score2_ucdict = {}, {}, {}
+kphTrO1_c_ucdict, kphTrO1_s_ucdict, kphTrO1_score2_ucdict = {}, {}, {}
+kphTrO2_c_ucdict, kphTrO2_s_ucdict, kphTrO2_score2_ucdict = {}, {}, {}
+kphOthers_c_ucdict, kphOthers_s_ucdict, kphOthers_score2_ucdict = {}, {}, {}
+others_c_ucdict, others_s_ucdict, others_score2_ucdict = {}, {}, {}
+
+
+#slopes dictionaries
+wNm_s1_dict, wNm_s2_dict, wNm_s3_dict, wNm_s4_dict = {}, {}, {}, {}
+carbon_s1_dict, carbon_s2_dict, carbon_s3_dict, carbon_s4_dict = {}, {}, {}, {}
+kphTrO1_s1_dict, kphTrO1_s2_dict, kphTrO1_s3_dict, kphTrO1_s4_dict = {}, {}, {}, {}
+kphTrO2_s1_dict, kphTrO2_s2_dict, kphTrO2_s3_dict, kphTrO2_s4_dict = {}, {}, {}, {}
+kphOthers_s1_dict, kphOthers_s2_dict, kphOthers_s3_dict, kphOthers_s4_dict = {}, {}, {}, {}
+others_s1_dict, others_s2_dict, others_s3_dict, others_s4_dict = {}, {}, {}, {}
+allstars_s1_dict, allstars_s2_dict, allstars_s3_dict, allstars_s4_dict = {}, {}, {}, {}
+wNmNc_s1_dict, wNmNc_s2_dict, wNmNc_s3_dict, wNmNc_s4_dict = {}, {}, {}, {}
