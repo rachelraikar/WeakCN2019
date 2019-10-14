@@ -117,7 +117,7 @@
    
    **CSV-Dictionaries**
   
-    Folder containing folders of dictionaries from all methods of analysis:
+    Folder containing csvs for each dictionaries from every method of analysis:
       1. Modified Diluted 
         * Contains both Carbon and Weak CN template scores, dilution factor (c), and slope adjustment (s)
         * For full W and 1U range
@@ -130,10 +130,15 @@
       4. Slopes
         * Contains 4 slopes of W range for all stars
         
+    ** Please refer to the DictionaryName.txt file for names of dictionaries in each method. **
+        
    **validindices**
-   
+    - Folder containing the star indices for each group from visual classification.
+    - They only include indices with valid zqual values, not of all stars from fits file.
+    
    **starVals2**
-   
+   - Here are the lists of values that Arya(SIP 2018) made for each star (the optimal C, the optimal S, and the score).
+   - This folder may be needed for notebook 2.5.3/2.6.1
      
   
 ## Troubleshooting
