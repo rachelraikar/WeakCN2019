@@ -106,7 +106,7 @@ There should be an outer folder named 'SIP' which will have the data as well as 
 
   **Automation Version 1.4.1**
 
-    1. SIP 2016 code by interns Anika Kamath, Atmika Sarukkai, Alyssa Sales. Mentor: Puragra GuhaThakurta.
+    1. SIP 2017 code by interns Anika Kamath, Atmika Sarukkai, Alyssa Sales. Mentor: Puragra GuhaThakurta.
     2. Data cleaning and plotting Weak CN stars on CMDs. 
 [SIP Powerpoint Summary 2017](https://docs.google.com/presentation/d/19AAxc7fn5uYHw6tADvqCNtWJVSEzC9QVLiDfULF8Q-I/edit?usp=sharing)
 
