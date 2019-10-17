@@ -108,6 +108,7 @@ There should be an outer folder named 'SIP' which will have the data as well as 
 
     1. SIP 2016 code by interns Anika Kamath, Atmika Sarukkai, Alyssa Sales. Mentor: Puragra GuhaThakurta.
     2. Data cleaning and plotting Weak CN stars on CMDs. 
+[SIP Powerpoint Summary 2017](https://docs.google.com/presentation/d/19AAxc7fn5uYHw6tADvqCNtWJVSEzC9QVLiDfULF8Q-I/edit?usp=sharing)
 
   **Automation Version 2.5.3**
 
@@ -121,6 +122,7 @@ There should be an outer folder named 'SIP' which will have the data as well as 
     2. Created Carbon template spectrum and graphed scores against it. 
     3. Kernel density estimations for classification, 
     4. Slope calculations
+[SIP Powerpoint Summary 2018](https://docs.google.com/presentation/d/1yU22u6BEQSoHR_OmjYo25r8jHGUddHze9O7WMsbLXpA/edit?usp=sharing)
 
   **Automation Version 2.7 test**
       
@@ -130,6 +132,7 @@ There should be an outer folder named 'SIP' which will have the data as well as 
         * Score against Weak CN Template vs Score against Carbon Template (both unmodified)
         * Score against scores against modified-diluted carbon template vs dilution factor
         * Slope 4-3 vs Slope 2-1 of the 'W' range.
+[SIP Powerpoint Summary 2019](https://docs.google.com/presentation/d/1GJ07btPGrAT70M7I6Wvqxo7k68x9WXD0L_Q9fIpg6fo/edit?usp=sharing)
 
   **Automation Version 3.0**
     
