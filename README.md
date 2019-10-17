@@ -3,7 +3,11 @@
 ## Table of Contents
 
   * [Requirements and Setup](#requirements-and-setup)
-  * [Files](#files-in-repository)  
+    * [Anaconda](#anaconda)
+    * [Jupyter Notebook](#using-jupyter)
+    * [Github](#using-github)
+    * [Folder Setup](#folder-setup)
+  * [Files in Repository](#files-in-repository)  
   * [Troubleshooting](#troubleshooting) 
 
 ## Requirements and Setup 
@@ -16,7 +20,7 @@
     Open up Anaconda Navigator and type 'jupyter notebook'. This launches jupyter on your web browser.
     Alternatively use terminal to cd to directory and open jupyter from there by typing 'jupyter notebook'
 
-**If you are new to coding with python in Jupyter, I suggest taking a look at this Python tutorial links:**
+**If you are new to coding with python in Jupyter, I suggest taking a look at the Python tutorial links below:**
 
 1. Please make sure you have completed the Anaconda installation of Python 3 on your computer. 
     Link to instructions for Anaconda installation and other pre-tutorial preparatory steps:
@@ -75,7 +79,29 @@
                  git push
     
         The change should now be visible on github."
+**For more on github help, refer to these helpful links [link1,](https://gist.github.com/davfre/8313299) [ link2](https://gist.github.com/ccannon94/982d69b23659d66c0ca6fb1384f94c97) or search the web**
 
+## Folder Setup
+
+This is the way your folder should be setup on you computer. Any other way will cause problems in reading the code.
+There should be an outer folder named 'SIP' which will have the data as well as the WeakCN2019 (respository) folder.
+
+**Be sure to keep the .fits data files in the outer folder since it is private NASA data that should not be made available to the public. If it is in the WeakCN2019 folder, it may be pushed to github**
+
+ * SIP - folder
+   * keckphat_catalog_replaced.fits  (private dataset obtained only from a collaborator)
+   * subMasterSPLASH2.fits           (private dataset obtained only from a collaborator)
+   * WeakCN2019 - folder               (downloaded from github with all the files below)
+     * Automation Version 1.4.1 
+     * Automation Version 2.5.3 
+     * Automation Version 2.6.1
+     * Automation Version 2.7 test
+     * Automation Version 3.0 
+     * Automation Version 4.0
+     * CSV-Dictionaries - folder
+     * validindices - folder
+     * starVals2 - folder
+   
 ## Files In Repository
 
   **Automation Version 1.4.1**
