@@ -1,0 +1,11 @@
+Method 1 - Unmodified Template
+Calculates the "score" of a star's normalized spectrum by comparing that to a normalized template spectrum and applying a formula that adds up and weights the differences between the two spectra. Note that in method 1, the template spectrum is unmodified.
+
+Method 2 - Modified Diluted Template
+Calculates the "score" of a star's normalized spectrum by comparing that to a normalized template spectrum and applying a formula that adds up and weights the differences between the two spectra. Note that in method 2, the template is tilted (slope adjustment) and diluted (scaled) to match the science spectrum. This makes slope (s) and dilution factor (c) important factors in addition to score values in the dictionaries. 
+
+Method 3 - Modified Undiluted template
+Score calculations with slope adjustment and no dilution factor (c=0)
+
+Method 4 - Slope
+Calculating the four slopes of the W range.
