@@ -7,7 +7,8 @@
     * [Jupyter Notebook](#using-jupyter)
     * [Github](#using-github)
     * [Folder Setup](#folder-setup)
-  * [Files in Repository](#files-in-repository)  
+  * [Files in Repository](#files-in-repository) 
+  * [Resources on Subject](#resources-on-subject)
   * [Troubleshooting](#troubleshooting) 
 
 ## Requirements and Setup 
@@ -124,6 +125,7 @@ There should be an outer folder named 'SIP' which will have the data as well as 
     4. Slope calculations
 [SIP Powerpoint Summary 2018](https://docs.google.com/presentation/d/1yU22u6BEQSoHR_OmjYo25r8jHGUddHze9O7WMsbLXpA/edit?usp=sharing)
 
+[AAS Poster Seattle 2019](https://aas233-aas.ipostersessions.com/default.aspx?s=A7-B2-A5-C4-92-63-FA-E1-98-9B-A2-58-C2-47-F7-55)
   **Automation Version 2.7 test**
       
     1. SIP 2019 code by Antara Bhattacharya, Suhas Kotha, Allison Chang. Mentored by Rachel Raikar
@@ -172,7 +174,27 @@ There should be an outer folder named 'SIP' which will have the data as well as 
     - Excludes stars that are all NaN-values.
     - This folder may be needed for notebook 2.5.3/2.6.1
      
-  
+## Resources on Subject
+
+* Katie Hamren’s paper on carbon stars and the C/M ratio for stars in the disk of M31:
+http://arxiv.org/pdf/1507.06687v1 (this is a PDF file)
+
+
+* Claire Dorman’s paper on the kinematics of stars of different ages in disk of M31:
+http://arxiv.org/pdf/1502.03820v1 (this is a PDF file)
+
+
+* Julianne Dalcanton’s paper giving the full details of the PHAT survey:
+http://arxiv.org/pdf/1204.0010v1 (this is a PDF file)
+
+* [SIP Powerpoint Summary 2017](https://docs.google.com/presentation/d/19AAxc7fn5uYHw6tADvqCNtWJVSEzC9QVLiDfULF8Q-I/edit?usp=sharing)
+
+* [SIP Powerpoint Summary 2018](https://docs.google.com/presentation/d/1yU22u6BEQSoHR_OmjYo25r8jHGUddHze9O7WMsbLXpA/edit?usp=sharing)
+
+* [SIP Powerpoint Summary 2019](https://docs.google.com/presentation/d/1GJ07btPGrAT70M7I6Wvqxo7k68x9WXD0L_Q9fIpg6fo/edit?usp=sharing)
+
+* [AAS Poster Seattle 2019](https://aas233-aas.ipostersessions.com/default.aspx?s=A7-B2-A5-C4-92-63-FA-E1-98-9B-A2-58-C2-47-F7-55)
+
 ## Troubleshooting
   
     Google doc with resources for help with Python/Github problems 
