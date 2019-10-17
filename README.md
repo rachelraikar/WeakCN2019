@@ -149,3 +149,5 @@
     Google doc with resources for help with Python/Github problems 
 [Click here for more help.](https://docs.google.com/document/d/1nbBvIYcEp0FrCOEeOlo-bxkvCmlRNhHeFeaXnpO_46g/edit?ts=5d0d0d6f)
   
+
+**Readme created by Rachel Raikar and Antara Battacharya 2019**
