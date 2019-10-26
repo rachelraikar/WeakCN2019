@@ -161,7 +161,7 @@ There should be an outer folder named 'SIP' which will have the data as well as 
       4. Slopes
         * Contains 4 slopes of W range for all stars
         
-   ** Please refer to the [Methods](Methods_of_Analysis.txt) for description of methods of spectral analysis and  [DictionaryNames](DictionaryNames.txt) for names of dictionaries in each method. **
+   ** Please refer to the [Methods](Methods_of_Analysis.txt) for a description of methods of spectral analysis and  [DictionaryNames](DictionaryNames.txt) for names of dictionaries in each method. **
         
    **validindices**
     
@@ -202,4 +202,4 @@ http://arxiv.org/pdf/1204.0010v1 (this is a PDF file)
   
 ------------------------------------------------------------------------------------------------------------------
 
-**Readme created by Rachel Raikar and Antara Battacharya 2019**
+**Readme created by Rachel Raikar and Antara Bhattacharya 2019**
