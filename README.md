@@ -126,6 +126,7 @@ There should be an outer folder named 'SIP' which will have the data as well as 
 [SIP Powerpoint Summary 2018](https://docs.google.com/presentation/d/1yU22u6BEQSoHR_OmjYo25r8jHGUddHze9O7WMsbLXpA/edit?usp=sharing)
 
 [AAS Poster Seattle 2019](https://aas233-aas.ipostersessions.com/default.aspx?s=A7-B2-A5-C4-92-63-FA-E1-98-9B-A2-58-C2-47-F7-55)
+  
   **Automation Version 2.7 test**
       
     1. SIP 2019 code by Antara Bhattacharya, Suhas Kotha, Allison Chang. Mentored by Rachel Raikar
