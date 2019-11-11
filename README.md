@@ -105,7 +105,7 @@ There should be an outer folder named 'SIP' which will have the data as well as 
      * starVals2 - folder
      * DictionaryNames
      * Formulae
-     * Methods
+     * Methods_of_Analysis
    
 ## Files In Repository
 
