@@ -96,13 +96,16 @@ There should be an outer folder named 'SIP' which will have the data as well as 
      * Automation Version 1.4.1 
      * Automation Version 2.5.3 
      * Automation Version 2.6.1
-     * Automation Version 2.7 test
+     * Automation Version 2.7
      * Automation Version 3.0 
      * Automation Version 4.1
      * Automation Version 4.2
      * CSV-Dictionaries - folder
      * validindices - folder
      * starVals2 - folder
+     * DictionaryNames
+     * Formulae
+     * Methods
    
 ## Files In Repository
 
