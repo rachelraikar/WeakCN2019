@@ -96,12 +96,16 @@ There should be an outer folder named 'SIP' which will have the data as well as 
      * Automation Version 1.4.1 
      * Automation Version 2.5.3 
      * Automation Version 2.6.1
-     * Automation Version 2.7 test
+     * Automation Version 2.7
      * Automation Version 3.0 
-     * Automation Version 4.0
+     * Automation Version 4.1
+     * Automation Version 4.2
      * CSV-Dictionaries - folder
      * validindices - folder
      * starVals2 - folder
+     * DictionaryNames
+     * Formulae
+     * Methods_of_Analysis
    
 ## Files In Repository
 
@@ -141,12 +145,18 @@ There should be an outer folder named 'SIP' which will have the data as well as 
     
     1. Combined and cleaned up code from 2.5.3 (Arya's code) and 2.6.1 (Alexandra's code).
 
-  **Automation Version 4.0**
-      
-    1. Code by Rachel Raikar and Antara Bhattacharya. 
-    2. Classification of weak CN stars based on their position on CMDs with     
-      distance from the head of the plot of scores against undiluted templates used as a classification metric.
-   
+  **Automation Version 4.1/4.2**
+  Notebooks were divided for loading convenience into:
+
+    1. Automation 4.1 (creating dictionaries)
+     - creates all the dictionaries needed for analysis and saves them as csv files
+     - do not need to run this notebook unless making edits to dictionaries
+
+    2. Automation 4.2 (analysis)
+    - Weighted Distance Analysis by Rachel Raikar and Antara Bhattacharya
+       - Analysis of comet plot:(score to unmodified Carbon template vs score to unmodified Weak CN template)
+       - Distance from arbitrary points on this plot were used to weight the stars on CMDs for analysis
+    
    **CSV-Dictionaries**
   
     Folder containing csvs for each dictionaries from every method of analysis:
@@ -162,7 +172,7 @@ There should be an outer folder named 'SIP' which will have the data as well as 
       4. Slopes
         * Contains 4 slopes of W range for all stars
         
-   ** Please refer to the [Methods](Methods_of_Analysis.txt) for a description of methods of spectral analysis and  [DictionaryNames](DictionaryNames.txt) for names of dictionaries in each method. **
+   ** Please refer to the [Methods](Methods_of_Analysis.txt) for a description of methods of spectral analysis,  [DictionaryNames](DictionaryNames.pdf) for names of dictionaries in each method, and [Formulas](Formulae.pdf) for formulas used. **
         
    **validindices**
     
